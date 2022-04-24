@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        constraintLayout = findViewById(R.id.constraint_layout);
+        constraintLayout = findViewById(R.id.main_constraint_layout);
         constraintLayout.setOnTouchListener(new SwipeListener(MainActivity.this) {
             @Override
             public void onSwipeLeft() {
