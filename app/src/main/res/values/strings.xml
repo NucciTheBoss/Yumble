@@ -15,6 +15,7 @@
     <!-- Profile Activity -->
     <string name="profile_title">Your Profile</string>
     <string name="profile_name_placeholder">NucciTheBoss</string>
+    <string name="profile_your_timeline">Your Timeline</string>
     <string name="profile_recipes_uploaded_title">Recipes Uploaded:</string>
     <string name="profile_upload_count_placeholder">10</string>
     <string name="profile_others_save_title">Recipes saved by others:</string>
@@ -23,4 +24,5 @@
     <string name="profile_saved_count_placeholder">8</string>
     <string name="profile_recipes_reject_title">Total recipes rejected:</string>
     <string name="profile_reject_count_place_holder">2</string>
+    <string name="profile_update_recipe_preferences">Update Recipe Preferences</string>
 </resources>
