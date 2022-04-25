@@ -31,4 +31,8 @@
     <string name="recipe_button_saved">Saved</string>
     <string name="recipe_button_search">Search</string>
     <string name="recipe_button_uploads">Uploads</string>
+
+    <!-- Search Filter Activity -->
+    <string name="search_button_search">Search</string>
+    <string name="search_button_filter">Filter</string>
 </resources>
