@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Yumble</string>
+    <string name="bullet">\u2022</string>
+    <string name="placeholder_title">Cheesesteak and Fries</string>
+    <string name="cook">Cook Time:</string>
+    <string name="placeholder_cook">30 min</string>
+    <string name="servings">Servings:</string>
+    <string name="placeholder_servings">4</string>
+    <string name="ingredients_title">Ingredients</string>
+    <string name="instructions_title">Instructions</string>
 </resources>
