@@ -2,6 +2,7 @@
     <!-- Globals -->
     <string name="app_name">Yumble</string>
     <string name="bullet">\u2022</string>
+    <string name="big_bullet">\u25CF</string>
 
     <!-- Main Activity -->
     <string name="placeholder_title">Cheesesteak and Fries</string>
@@ -25,4 +26,9 @@
     <string name="profile_recipes_reject_title">Total recipes rejected:</string>
     <string name="profile_reject_count_place_holder">2</string>
     <string name="profile_update_recipe_preferences">Update Recipe Preferences</string>
+
+    <!-- Saved Recipes Activity -->
+    <string name="recipe_button_saved">Saved</string>
+    <string name="recipe_button_search">Search</string>
+    <string name="recipe_button_uploads">Uploads</string>
 </resources>
