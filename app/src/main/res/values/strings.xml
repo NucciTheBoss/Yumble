@@ -1,6 +1,9 @@
 <resources>
+    <!-- Globals -->
     <string name="app_name">Yumble</string>
     <string name="bullet">\u2022</string>
+
+    <!-- Main Activity -->
     <string name="placeholder_title">Cheesesteak and Fries</string>
     <string name="cook">Cook Time:</string>
     <string name="placeholder_cook">30 min</string>
@@ -8,4 +11,16 @@
     <string name="placeholder_servings">4</string>
     <string name="ingredients_title">Ingredients</string>
     <string name="instructions_title">Instructions</string>
+
+    <!-- Profile Activity -->
+    <string name="profile_title">Your Profile</string>
+    <string name="profile_name_placeholder">NucciTheBoss</string>
+    <string name="profile_recipes_uploaded_title">Recipes Uploaded:</string>
+    <string name="profile_upload_count_placeholder">10</string>
+    <string name="profile_others_save_title">Recipes saved by others:</string>
+    <string name="profile_others_count_placeholder">2</string>
+    <string name="profile_recipes_saved_title">Total recipes saved:</string>
+    <string name="profile_saved_count_placeholder">8</string>
+    <string name="profile_recipes_reject_title">Total recipes rejected:</string>
+    <string name="profile_reject_count_place_holder">2</string>
 </resources>
