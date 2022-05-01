@@ -115,4 +115,14 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_begin="706dp" />
 
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/saved_recipes_fragment_view"
+        android:name="com.hcdd340.yumble.activity.fragments.SavedRecipesSavedFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,6 +3,7 @@
     <string name="app_name">Yumble</string>
     <string name="bullet">\u2022</string>
     <string name="big_bullet">\u25CF</string>
+    <string name="work_in_progress">Wow, such empty</string>
 
     <!-- Main Activity -->
     <string name="placeholder_title">Cheesesteak and Fries</string>
@@ -35,4 +36,6 @@
     <!-- Search Filter Activity -->
     <string name="search_button_search">Search</string>
     <string name="search_button_filter">Filter</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
