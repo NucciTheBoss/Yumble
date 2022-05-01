@@ -1,0 +1,42 @@
+Author: NucciTheBoss
+Title: Creamy Blueberry Coconut Ricotta Bowl
+Cook Time: 10 min
+Servings: 1
+Description: This filling breakfast bowl will jumpstart your day and keep you full all morning. It is chock full of protein and is super delicious and creamy.
+Ingredients: [
+    "¼ cup whole milk ricotta cheese",
+    "1 tablespoon coconut milk",
+    "1 tablespoon honey, or to taste",
+    "1 tablespoon slivered almonds",
+    "1 tablespoon sweetened flaked coconut",
+    "½ cup blueberries, or to taste"
+]
+Description: [
+    "Combine ricotta cheese and coconut milk in a bowl. Drizzle on honey and sprinkle with almonds and coconut. Top with blueberries."
+]
+Notes: [
+    "N/A"
+]
+Nutrition Facts: [
+    Servings Per Recipe: 1
+    Calories: 304
+    % Daily Value *
+    Protein: 9.4g 19 %
+    Carbohydrates: 33.8g 11 %
+    Dietary Fiber: 3g 12 %
+    Sugars: 26.6g
+    Fat: 16.2g 25 %
+    Saturated Fat: 9.4g 47 %
+    Cholesterol: 31.4mg 11 %
+    Vitamin A Iu: 312.8IU 6 %
+    Niacin Equivalents: 2.1mg 16 %
+    Vitamin B6: 0.1mg 5 %
+    Vitamin C: 7.3mg 12 %
+    Folate: 17mcg 4 %
+    Calcium: 153.1mg 15 %
+    Iron: 1.3mg 7 %
+    Magnesium: 41.3mg 15 %
+    Potassium: 223.7mg 6 %
+    Sodium: 69.2mg 3 %
+    Calories From Fat: 145.5
+]

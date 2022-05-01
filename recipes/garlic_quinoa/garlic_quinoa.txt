@@ -1,0 +1,43 @@
+Author: NucciTheBoss
+Title: Garlic Quinoa
+Cook Time: 30 min
+Servings: 4
+Description: A quick and easy, basic quinoa recipe.
+Ingredients: [
+    "1 tablespoon butter",
+    "1 tablespoon minced garlic",
+    "2 cups chicken broth",
+    "1 cup quinoa"
+]
+Directions: [
+    "Melt butter in a saucepan over medium heat. Cook and stir garlic in melted butter until just browned, about 5 minutes.",
+    "Pour chicken broth into the saucepan; add quinoa and stir. Bring the mixture to a boil, reduce heat to low, cover, and simmer until liquid is absorbed, about 15 minutes.",
+    "Remove saucepan from heat and rest mixture 5 minutes before fluffing with a fork."
+]
+Notes: [
+    "Best served as a side dish to your main dish."
+]
+Nutrition Facts: [
+    Servings Per Recipe: 4
+    Calories: 192.5
+    % Daily Value *
+    Protein: 6.7g 13 %
+    Carbohydrates: 28.5g 9 %
+    Dietary Fiber: 3g 12 %
+    Sugars: 0.5g
+    Fat: 5.7g 9 %
+    Saturated Fat: 2.1g 11 %
+    Cholesterol: 10.1mg 3 %
+    Vitamin A Iu: 94.9IU 2 %
+    Niacin Equivalents: 1.7mg 13 %
+    Vitamin B6: 0.2mg 15 %
+    Vitamin C: 0.7mg 1 %
+    Folate: 78.4mcg 20 %
+    Calcium: 24.6mg 3 %
+    Iron: 2mg 11 %
+    Magnesium: 84.3mg 30 %
+    Potassium: 248.5mg 7 %
+    Sodium: 502.9mg 20 %
+    Thiamin: 0.1mg 9 %
+    Calories From Fat: 51.5
+]

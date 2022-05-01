@@ -1,0 +1,44 @@
+Author: NucciTheBoss
+Title: Creamy Pesto Penne with Sausage
+Cook Time: 25 min
+Servings: 2
+Description: Quick weeknight dinner. Ready in 15 minutes!
+Ingredients: [
+    "1 (16 ounce) package penne pasta",
+    "½ pound ground sausage",
+    "1 (1.2 ounce) package creamy pesto sauce mix (such as Knorr®)",
+    "1 cup milk",
+    "¼ cup olive oil"
+]
+Directions: [
+    "Bring a large pot of lightly salted water to a boil. Cook penne at a boil, stirring occasionally, until tender yet firm to the bite, about 11 minutes; drain and transfer pasta to a bowl.",
+    "Heat a large skillet over medium-high heat. Cook and stir sausage in the hot skillet until browned and crumbly, 5 to 7 minutes; add to pasta.",
+    "Whisk pesto sauce mix, milk, and olive oil together in a small saucepan; bring to a boil while stirring constantly. Reduce heat to low and keep at a simmer until thickened, about 3 minutes; pour over pasta and sausage mixture and toss to coat."
+]
+Notes: [
+    "For a lower-fat option, sub fat-free milk."
+]
+Nutrition Facts: [
+    Servings Per Recipe: 2
+    Calories: 1454.6
+    % Daily Value *
+    Protein: 51.5g 103 %
+    Carbohydrates: 176.8g 57 %
+    Dietary Fiber: 7.6g 30 %
+    Sugars: 15.6g
+    Fat: 61.8g 95 %
+    Saturated Fat: 15.8g 79 %
+    Cholesterol: 74.5mg 25 %
+    Vitamin A Iu: 230.6IU 5 %
+    Niacin Equivalents: 19.8mg 152 %
+    Vitamin B6: 0.6mg 37 %
+    Vitamin C: 1.8mg 3 %
+    Folate: 8.6mcg 2 %
+    Calcium: 214.1mg 21 %
+    Iron: 7.4mg 41 %
+    Magnesium: 132mg 47 %
+    Potassium: 883.7mg 25 %
+    Sodium: 2150.9mg 86 %
+    Thiamin: 0.6mg 63 %
+    Calories From Fat: 556.1
+]

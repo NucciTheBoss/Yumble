@@ -1,0 +1,45 @@
+Author: NucciTheBoss
+Title: Sriracha Scrambled Eggs
+Cook Time: 10 min
+Servings: 1
+Description: This is an excellent, spicy, quick-and-easy breakfast.
+Ingredients: [
+    "2 eggs",
+    "1 tablespoon half-and-half",
+    "1 teaspoon sriracha sauce, or to taste",
+    "salt and ground pepper to taste",
+    "2 tablespoons butter"
+]
+Directions: [
+    "Beat eggs in a bowl with half-and-half, sriracha, salt, and pepper until smooth.",
+    "Melt butter in nonstick pan over medium-low heat, tilting the pan to cover surface entirely with butter. Cook egg mixture in pan, stirring to slowly scramble eggs, until the eggs are fully set, 3 to 5 minutes."
+]
+Notes: [
+    "Serve with toast and hash brown potatoes for a complete meal.",
+    "Add cheese if you wish.",
+    "Can substitute Sriracha with your own recipe"
+]
+Nutrition Facts: [
+    Servings Per Recipe: 1
+    Calories: 368.8
+    % Daily Value *
+    Protein: 13.3g 27 %
+    Carbohydrates: 2g 1 %
+    Dietary Fiber: 0.2g 1 %
+    Sugars: 0.8g
+    Fat: 34.7g 53 %
+    Saturated Fat: 18.8g 94 %
+    Cholesterol: 438.6mg 146 %
+    Vitamin A Iu: 1428.4IU 29 %
+    Niacin Equivalents: 3mg 23 %
+    Vitamin B6: 0.1mg 9 %
+    Vitamin C: 0.8mg 1 %
+    Folate: 48.3mcg 12 %
+    Calcium: 75.6mg 8 %
+    Iron: 2mg 11 %
+    Magnesium: 14.1mg 5 %
+    Potassium: 160.3mg 5 %
+    Sodium: 536.5mg 22 %
+    Thiamin: 0.1mg 7 %
+    Calories From Fat: 312.3
+]

@@ -1,0 +1,43 @@
+Author: NucciTheBoss
+Title: Tomato Basil Salmon
+Cook Time: 30 min
+Servings: 2
+Description: This quick salmon dish is perfect for a weeknight dinner.
+Ingredients: [
+    "2 (6 ounce) boneless salmon fillets",
+    "1 tablespoon dried basil",
+    "1 tomato, thinly sliced",
+    "1 tablespoon olive oil",
+    "2 tablespoons grated Parmesan cheese"
+]
+Directions: [
+    "Preheat oven to 375 degrees F (190 degrees C). Line a baking sheet with a piece of aluminum foil, and spray with nonstick cooking spray. Place the salmon fillets onto the foil, sprinkle with basil, top with tomato slices, drizzle with olive oil, and sprinkle with the Parmesan cheese.",
+    "Bake in the preheated oven until the salmon is opaque in the center, and the Parmesan cheese is lightly browned on top, about 20 minutes."
+]
+Notes: [
+    "Serve with a side of sauteed spinach and a glass of pinot noir."
+]
+Nutrition Facts: [
+    Servings Per Recipe: 2
+    Calories: 405.4
+    % Daily Value *
+    Protein: 36.2g 72 %
+    Carbohydrates: 4g 1 %
+    Dietary Fiber: 1.6g 7 %
+    Sugars: 1.7g
+    Fat: 26.6g 41 %
+    Saturated Fat: 5.5g 27 %
+    Cholesterol: 103.5mg 35 %
+    Vitamin A Iu: 829.3IU 17 %
+    Niacin Equivalents: 19.9mg 153 %
+    Vitamin B6: 1.2mg 73 %
+    Vitamin C: 15.7mg 26 %
+    Folate: 59.6mcg 15 %
+    Calcium: 129.4mg 13 %
+    Iron: 1.8mg 10 %
+    Magnesium: 65.2mg 23 %
+    Potassium: 837.5mg 24 %
+    Sodium: 179.5mg 7 %
+    Thiamin: 0.6mg 61 %
+    Calories From Fat: 239.6
+]

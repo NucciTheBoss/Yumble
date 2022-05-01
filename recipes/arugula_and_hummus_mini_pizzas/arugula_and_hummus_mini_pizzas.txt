@@ -1,0 +1,43 @@
+Author: NucciTheBoss
+Title: Arugula and Hummus Mini Pizzas
+Cook Time: 10 min
+Servings: 1
+Description:
+Ingredients: [
+    "2 tablespoons hummus, or to taste",
+    "1 naan bread",
+    "1 cup arugula, or to taste",
+    "1 date, pitted and finely chopped",
+    "2 teaspoons pumpkin seeds",
+    "1 teaspoon balsamic vinegar, or to taste"
+]
+Directions: [
+    "Spread hummus onto naan bread; top with arugula, date, and pumpkin seeds. Drizzle balsamic vinegar over pizza."
+]
+Notes: [
+    "N/A"
+]
+Nutrition Facts: [
+    Servings Per Recipe: 1
+    Calories: 349.5
+    % Daily Value *
+    Protein: 14.4g 29 %
+    Carbohydrates: 56.8g 18 %
+    Dietary Fiber: 10.9g 44 %
+    Sugars: 8.5g
+    Fat: 8.5g 13 %
+    Saturated Fat: 0.9g 5 %
+    Cholesterol: 10mg 3 %
+    Vitamin A Iu: 505.9IU 10 %
+    Niacin Equivalents: 0.8mg 6 %
+    Vitamin B6: 0.1mg 6 %
+    Vitamin C: 3.2mg 5 %
+    Folate: 47.6mcg 12 %
+    Calcium: 49.9mg 5 %
+    Iron: 2mg 11 %
+    Magnesium: 63.9mg 23 %
+    Potassium: 242.9mg 7 %
+    Sodium: 424mg 17 %
+    Thiamin: 0.1mg 8 %
+    Calories From Fat: 76.7
+]

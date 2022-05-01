@@ -1,0 +1,44 @@
+Author: NucciTheBoss
+Title: Steamy Microwave Zucchini
+Cook Time: 23 min
+Servings: 4
+Description: Super easy, healthy vegetables with great flavor!
+Ingredients: [
+    "2 zucchini, sliced",
+    "2 stalks celery, chopped",
+    "1 small onion, chopped",
+    "1 small onion, chopped",
+    "½ cup shredded Cheddar cheese"
+]
+Directions: [
+    "Mix zucchini, celery, onion, and mushrooms in a microwave-safe dish. Cover dish with plastic wrap.",
+    "Cook on High until vegetables are steamed and slightly tender, about 6 minutes.",
+    "Pull plastic wrap away from dish, stir vegetables, sprinkle Cheddar cheese over the vegetables, and replace the plastic to seal tightly. Let dish sit until the cheese melts, 2 to 3 minutes. Stir vegetables to coat evenly with melted cheese."
+]
+Notes: [
+    "N/A"
+]
+Nutrition Facts: [
+    Servings Per Recipe: 4
+    Calories: 81.6
+    % Daily Value *
+    Protein: 5.3g 11 %
+    Carbohydrates: 5.1g 2 %
+    Dietary Fiber: 1.5g 6 %
+    Sugars: 2.5g
+    Fat: 4.9g 8 %
+    Saturated Fat: 3g 15 %
+    Cholesterol: 14.8mg 5 %
+    Vitamin A Iu: 349.7IU 7 %
+    Niacin Equivalents: 2.2mg 17 %
+    Vitamin B6: 0.2mg 12 %
+    Vitamin C: 12.4mg 21 %
+    Folate: 33.9mcg 9 %
+    Calcium: 123.4mg 12 %
+    Iron: 0.5mg 3 %
+    Magnesium: 20mg 7 %
+    Potassium: 319.1mg 9 %
+    Sodium: 111.5mg 5 %
+    Thiamin: 0.1mg 8 %
+    Calories From Fat: 44.3
+]

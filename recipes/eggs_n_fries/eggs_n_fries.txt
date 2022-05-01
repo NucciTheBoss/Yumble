@@ -1,0 +1,41 @@
+Author: NucciTheBoss
+Title: Eggs n' Fries
+Cook Time: 15 min
+Servings: 1
+Description: I just don't like eating plain eggs, so when I got this recipe from my grandmother it immediately became my favorite breakfast food.
+Ingredients: [
+    "1 teaspoon butter, or to taste",
+    "¼ cup frozen French fries, or to taste",
+    "2 eggs, beaten",
+    "1 pinch salt and ground black pepper to taste"
+]
+Directions: [
+    "Melt butter in a skillet over medium heat. Cook and stir French fries in hot butter until browned and hot, 3 to 5 minutes. Add eggs and season with salt and black pepper; cook and stir until eggs are scrambled and set, 3 to 5 minutes."
+]
+Notes: [
+    "N/A"
+]
+Nutrition Facts: [
+    Servings Per Recipe: 1
+    Calories: 212.3
+    % Daily Value *
+    Protein: 13.1g 26 %
+    Carbohydrates: 6.4g 2 %
+    Dietary Fiber: 0.4g 2 %
+    Sugars: 0.8g
+    Fat: 15.1g 23 %
+    Saturated Fat: 5.9g 30 %
+    Cholesterol: 382.8mg 128 %
+    Vitamin A Iu: 612.9IU 12 %
+    Niacin Equivalents: 3.3mg 26 %
+    Vitamin B6: 0.2mg 12 %
+    Vitamin C: 3.9mg 7 %
+    Folate: 55.1mcg 14 %
+    Calcium: 56.3mg 6 %
+    Iron: 2mg 11 %
+    Magnesium: 16.9mg 6 %
+    Potassium: 228.1mg 6 %
+    Sodium: 399.4mg 16 %
+    Thiamin: 0.1mg 9 %
+    Calories From Fat: 135.5
+]

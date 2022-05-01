@@ -1,0 +1,44 @@
+Author: NucciTheBoss
+Title: Avocado Sandwich
+Cook Time: 10 min
+Servings: 1
+Description: Always a lunchtime favorite. It's simple, delicious, and refreshing! The measurements for the ingredients are all approximate, as this sandwich is best when tailored to personal taste. Particularly scrumptious on potato, oat, or country white bread. Enjoy!
+Ingredients: [
+    "2 slices bread",
+    "2 slices provolone cheese, or more as needed",
+    "¼ avocado - peeled, pitted, and thinly sliced",
+    "½ tomato, sliced",
+    "1 ½ teaspoons balsamic vinegar"
+]
+Directions: [
+    "Lay 1 slice bread on a plate. Place provolone cheese on bread and top with avocado and tomato slices, respectively. Drizzle balsamic vinegar over tomato and top with remaining slice of bread."
+]
+Notes: [
+    "You can substitute mozzarella cheese for the provolone cheese, if desired.",
+    "If available, I like to add fresh arugula or basil from the garden.",
+    "Turn this into a more wintry dish by toasting the bread first."
+]
+Nutrition Facts: [
+    Servings Per Recipe: 1
+    Calories: 428.4
+    % Daily Value *
+    Protein: 19.9g 40 %
+    Carbohydrates: 34.4g 11 %
+    Dietary Fiber: 5.3g 21 %
+    Sugars: 5.5g
+    Fat: 24.2g 37 %
+    Saturated Fat: 11.1g 56 %
+    Cholesterol: 39.1mg 13 %
+    Vitamin A Iu: 1084.6IU 22 %
+    Niacin Equivalents: 7.5mg 58 %
+    Vitamin B6: 0.3mg 16 %
+    Vitamin C: 12.9mg 22 %
+    Folate: 111.1mcg 28 %
+    Calcium: 518.6mg 52 %
+    Iron: 2.7mg 15 %
+    Magnesium: 48.7mg 17 %
+    Potassium: 523.7mg 15 %
+    Sodium: 845.7mg 34 %
+    Thiamin: 0.2mg 22 %
+    Calories From Fat: 218.2
+]
