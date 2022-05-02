@@ -2,7 +2,7 @@ Author: NucciTheBoss
 Title: Arugula and Hummus Mini Pizzas
 Cook Time: 10 min
 Servings: 1
-Description:
+Description: Nice easy meal to feed yourself while on the run.
 Ingredients: [
     "2 tablespoons hummus, or to taste",
     "1 naan bread",
