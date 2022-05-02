@@ -46,12 +46,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
 
             @Override
-            public void onSwipeBottom() {
-                Log.d(DEBUG_TAG, "Swipe down detected");
-                showSearchFilterActivity();
-            }
-
-            @Override
             public void onSwipeTop() {
                 Log.d(DEBUG_TAG, "Swipe up detected");
                 showUploadActivity();
@@ -103,12 +97,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Intent intent = new Intent(this, UploadActivity.class);
         startActivity(intent);
         overridePendingTransition(R.anim.slide_in_down, R.anim.slide_out_up);
-    }
-
-    private void showSearchFilterActivity() {
-        Intent intent = new Intent(this, SearchFilterActivity.class);
-        startActivity(intent);
-        overridePendingTransition(R.anim.slide_in_up, R.anim.slide_out_down);
     }
 
     private void setRecipe(Recipe recipe) {

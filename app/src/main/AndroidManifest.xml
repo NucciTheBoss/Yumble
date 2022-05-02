@@ -19,9 +19,6 @@
             android:name=".activity.UploadActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.SearchFilterActivity"
-            android:exported="false" />
-        <activity
             android:name=".activity.ProfileActivity"
             android:exported="false" />
         <activity
