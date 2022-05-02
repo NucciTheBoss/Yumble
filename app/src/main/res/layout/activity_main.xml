@@ -213,7 +213,16 @@
                 android:layout_margin="20dp"
                 android:fontFamily="@font/montserrat_bold"
                 android:text="@string/ingredients_title"
+                android:textColor="@color/black"
                 android:textSize="16sp" />
+
+            <LinearLayout
+                android:id="@+id/ingredients_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            </LinearLayout>
 
             <TextView
                 android:id="@+id/instructions_title"
@@ -222,7 +231,17 @@
                 android:layout_margin="20dp"
                 android:fontFamily="@font/montserrat_bold"
                 android:text="@string/instructions_title"
+                android:textColor="@color/black"
                 android:textSize="16sp" />
+
+            <LinearLayout
+                android:id="@+id/instructions_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
         </LinearLayout>
     </ScrollView>
 

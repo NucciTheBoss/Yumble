@@ -5,9 +5,11 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.google.android.material.imageview.ShapeableImageView;
@@ -15,6 +17,10 @@ import com.hcdd340.yumble.R;
 import com.hcdd340.yumble.data.DataManager;
 import com.hcdd340.yumble.data.Recipe;
 import com.hcdd340.yumble.nav.SwipeListener;
+
+import org.w3c.dom.Text;
+
+import java.util.LinkedList;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private final static String DEBUG_TAG = "MAIN_ACTIVITY";
@@ -66,28 +72,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setRecipe(DataManager.getInstance().getCurrentRecipe());
     }
 
-    @SuppressLint("NonConstantResourceId")
     @Override
     public void onClick(View view) {
+        Log.d(DEBUG_TAG, "Click event detected");
         int resView = view.getId();
 
-        switch (resView) {
-            case R.id.dislike_button:
-                setRecipe(DataManager.getInstance().moveToNextRecipe());
-                break;
+        if (resView == R.id.dislike_button) {
+            setRecipe(DataManager.getInstance().moveToNextRecipe());
 
-            case R.id.refresh_button:
-                DataManager.getInstance().randomize();
-                setRecipe(DataManager.getInstance().getCurrentRecipe());
-                break;
+        } else if (resView == R.id.refresh_button) {
+            DataManager.getInstance().randomize();
+            setRecipe(DataManager.getInstance().getCurrentRecipe());
 
-            case R.id.favorite_button:
-                setRecipe(DataManager.getInstance().moveToNextRecipe());
-                break;
-
-            default:
-                Log.e(DEBUG_TAG, "Feature not implemented yet.");
-                break;
+        } else if (resView == R.id.favorite_button) {
+            setRecipe(DataManager.getInstance().moveToNextRecipe());
         }
     }
 
@@ -120,11 +118,33 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ShapeableImageView foodImage = findViewById(R.id.food_image);
         TextView cookTime = findViewById(R.id.cook_time);
         TextView servings = findViewById(R.id.servings);
+        LinearLayout ingredientsLL = findViewById(R.id.ingredients_layout);
+        LinearLayout instructionsLL = findViewById(R.id.instructions_layout);
 
         recipeTitle.setText(recipe.getTitle());
         foodImage.setImageResource(recipe.getImage());
         foodImage.setContentDescription(recipe.getImageDesc());
         cookTime.setText(recipe.getStatistics().getValue0());
         servings.setText(recipe.getStatistics().getValue1());
+        populateLinearLayout(recipe.getIngredients(), ingredientsLL);
+        populateLinearLayout(recipe.getInstructions(), instructionsLL);
+    }
+
+    private void populateLinearLayout(LinkedList<String> list, LinearLayout ll) {
+        ll.removeAllViews();
+        LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.WRAP_CONTENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT
+        );
+        params.setMargins(80, 0, 80, 30);
+        Typeface typeface = getResources().getFont(R.font.montserrat_regular);
+        for (String item : list) {
+            TextView textView = new TextView(this);
+            textView.setText(item);
+            textView.setLayoutParams(params);
+            textView.setTextColor(getColor(R.color.black));
+            textView.setTypeface(typeface);
+            ll.addView(textView);
+        }
     }
 }
