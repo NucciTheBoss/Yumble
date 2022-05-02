@@ -4,51 +4,151 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.fragments.UploadFragmentPageOne">
+    tools:context=".activity.fragments.UploadPageOneFragment">
 
+    <!-- TODO: Update blank fragment layout -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="5dp">
 
-        <ImageView
-            android:id="@+id/work_in_progress_image"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:scaleType="fitCenter"
-            android:src="@drawable/work_in_progress"
-            app:layout_constraintBottom_toTopOf="@+id/guideline16"
+        <Button
+            android:id="@+id/upload_next_button_p1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/food_red"
+            android:text="@string/upload_next_button"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/upload_cancel_button_p1"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/upload_cancel_button_p1"
+            app:layout_constraintTop_toTopOf="@+id/upload_cancel_button_p1" />
+
+        <Button
+            android:id="@+id/upload_cancel_button_p1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/light_grey_background"
+            android:text="@string/upload_cancel_button"
+            android:textColor="@color/grey_text"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/upload_next_button_p1"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="spread"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintTop_toTopOf="@+id/guideline19" />
 
         <androidx.constraintlayout.widget.Guideline
-            android:id="@+id/guideline16"
+            android:id="@+id/guideline19"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            app:layout_constraintGuide_begin="220dp" />
+            app:layout_constraintGuide_begin="575dp" />
 
         <androidx.constraintlayout.widget.Guideline
-            android:id="@+id/guideline17"
+            android:id="@+id/guideline20"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            app:layout_constraintGuide_begin="338dp" />
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="60dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_end="60dp" />
 
         <TextView
-            android:id="@+id/work_in_progress_recipes"
+            android:id="@+id/upload_recipe_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/montserrat_extra_bold"
-            android:text="@string/work_in_progress"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/upload_pg1_recipe_title"
             android:textColor="@color/black"
             android:textSize="20sp"
-            app:layout_constraintBottom_toTopOf="@+id/guideline17"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/work_in_progress_image" />
+            app:layout_constraintBottom_toTopOf="@+id/upload_recipe_title_input"
+            app:layout_constraintStart_toStartOf="@+id/upload_recipe_title_input"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <EditText
+            android:id="@+id/upload_recipe_title_input"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="32dp"
+            android:ems="10"
+            android:fontFamily="@font/montserrat_regular"
+            android:hint="@string/upload_pg1_recipe_title_hint"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:textColorHint="#757575"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/upload_recipe_cook_time"
+            app:layout_constraintEnd_toStartOf="@+id/guideline21"
+            app:layout_constraintStart_toStartOf="@+id/guideline20"
+            app:layout_constraintTop_toBottomOf="@+id/upload_recipe_title" />
+
+        <TextView
+            android:id="@+id/upload_recipe_cook_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/upload_pg1_recipe_cook_time"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/upload_recipe_cook_time_input"
+            app:layout_constraintStart_toStartOf="@+id/upload_recipe_cook_time_input"
+            app:layout_constraintTop_toBottomOf="@+id/upload_recipe_title_input" />
+
+        <TextView
+            android:id="@+id/upload_recipe_servings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/upload_pg1_recipe_servings"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/upload_recipe_servings_input"
+            app:layout_constraintStart_toStartOf="@+id/upload_recipe_servings_input"
+            app:layout_constraintTop_toBottomOf="@+id/upload_recipe_cook_time_input" />
+
+        <EditText
+            android:id="@+id/upload_recipe_servings_input"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:fontFamily="@font/montserrat_regular"
+            android:hint="@string/upload_pg1_recipe_servings_hint"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline19"
+            app:layout_constraintEnd_toEndOf="@+id/upload_recipe_cook_time_input"
+            app:layout_constraintStart_toStartOf="@+id/upload_recipe_cook_time_input"
+            app:layout_constraintTop_toBottomOf="@+id/upload_recipe_servings" />
+
+        <EditText
+            android:id="@+id/upload_recipe_cook_time_input"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="32dp"
+            android:ems="10"
+            android:fontFamily="@font/montserrat_regular"
+            android:hint="@string/upload_pg1_recipe_cook_time_hint"
+            android:importantForAutofill="no"
+            android:inputType="time"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/upload_recipe_servings"
+            app:layout_constraintEnd_toEndOf="@+id/upload_recipe_title_input"
+            app:layout_constraintStart_toStartOf="@+id/upload_recipe_title_input"
+            app:layout_constraintTop_toBottomOf="@+id/upload_recipe_cook_time" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>

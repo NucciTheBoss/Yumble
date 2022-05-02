@@ -11,4 +11,6 @@
     <color name="food_red_alt">#670B0B</color>
     <color name="food_brown">#673E27</color>
     <color name="food_green">#1F9738</color>
+    <color name="grey_text">#6E6E6E</color>
+    <color name="light_grey_background">#F3F3F3</color>
 </resources>

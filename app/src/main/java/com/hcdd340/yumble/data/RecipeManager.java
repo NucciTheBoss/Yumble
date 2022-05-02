@@ -15,20 +15,20 @@ import java.util.LinkedList;
 /**
  * @author Jason C. Nucciarone
  */
-public class DataManager {
+public class RecipeManager {
     private final static String DEBUG_TAG = "DATA_MANAGER";
 
     // Begin Singleton declaration
-    private static DataManager dataManager = null;
+    private static RecipeManager recipeManager = null;
 
-    private DataManager() {}
+    private RecipeManager() {}
 
-    public static DataManager getInstance() {
-        if (dataManager == null) {
-            dataManager = new DataManager();
+    public static RecipeManager getInstance() {
+        if (recipeManager == null) {
+            recipeManager = new RecipeManager();
         }
 
-        return dataManager;
+        return recipeManager;
     }
     // End Singleton declaration
 

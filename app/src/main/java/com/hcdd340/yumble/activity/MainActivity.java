@@ -14,11 +14,9 @@ import android.widget.TextView;
 
 import com.google.android.material.imageview.ShapeableImageView;
 import com.hcdd340.yumble.R;
-import com.hcdd340.yumble.data.DataManager;
+import com.hcdd340.yumble.data.RecipeManager;
 import com.hcdd340.yumble.data.Recipe;
 import com.hcdd340.yumble.nav.SwipeListener;
-
-import org.w3c.dom.Text;
 
 import java.util.LinkedList;
 
@@ -67,9 +65,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         refreshButton.setOnClickListener(this);
         favoriteButton.setOnClickListener(this);
 
-        DataManager.getInstance().loadRecipes();
-        DataManager.getInstance().randomize();
-        setRecipe(DataManager.getInstance().getCurrentRecipe());
+        RecipeManager.getInstance().loadRecipes();
+        RecipeManager.getInstance().randomize();
+        setRecipe(RecipeManager.getInstance().getCurrentRecipe());
     }
 
     @Override
@@ -78,14 +76,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         int resView = view.getId();
 
         if (resView == R.id.dislike_button) {
-            setRecipe(DataManager.getInstance().moveToNextRecipe());
+            setRecipe(RecipeManager.getInstance().moveToNextRecipe());
 
         } else if (resView == R.id.refresh_button) {
-            DataManager.getInstance().randomize();
-            setRecipe(DataManager.getInstance().getCurrentRecipe());
+            RecipeManager.getInstance().randomize();
+            setRecipe(RecipeManager.getInstance().getCurrentRecipe());
 
         } else if (resView == R.id.favorite_button) {
-            setRecipe(DataManager.getInstance().moveToNextRecipe());
+            setRecipe(RecipeManager.getInstance().moveToNextRecipe());
         }
     }
 
