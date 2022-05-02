@@ -6,8 +6,10 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.TextView;
 
 import com.hcdd340.yumble.R;
+import com.hcdd340.yumble.data.ProfileManager;
 import com.hcdd340.yumble.nav.SwipeListener;
 
 public class ProfileActivity extends AppCompatActivity {
@@ -29,6 +31,15 @@ public class ProfileActivity extends AppCompatActivity {
                 finish();
             }
         });
+
+        TextView recipeUploadedCount = findViewById(R.id.profile_upload_count_placeholder);
+        TextView recipeSavedByOthersCount = findViewById(R.id.profile_others_count_placeholder);
+        TextView totalRecipesSavedCount = findViewById(R.id.profile_saved_count_placeholder);
+        TextView totalRecipesDislikedCount = findViewById(R.id.profile_reject_count_placeholder);
+        recipeSavedByOthersCount.setText(String.valueOf(ProfileManager.getInstance().getFavoritesByOtherSize()));
+        recipeUploadedCount.setText(String.valueOf(ProfileManager.getInstance().getUploadSize()));
+        totalRecipesSavedCount.setText(String.valueOf(ProfileManager.getInstance().getFavoriteSize()));
+        totalRecipesDislikedCount.setText(String.valueOf(ProfileManager.getInstance().getDislikeSize()));
     }
 
     @Override

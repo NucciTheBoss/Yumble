@@ -14,6 +14,7 @@ import android.widget.TextView;
 
 import com.google.android.material.imageview.ShapeableImageView;
 import com.hcdd340.yumble.R;
+import com.hcdd340.yumble.data.ProfileManager;
 import com.hcdd340.yumble.data.RecipeManager;
 import com.hcdd340.yumble.data.Recipe;
 import com.hcdd340.yumble.nav.SwipeListener;
@@ -70,6 +71,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         int resView = view.getId();
 
         if (resView == R.id.dislike_button) {
+            Recipe recipe = RecipeManager.getInstance().getCurrentRecipe();
+            ProfileManager.getInstance().addDislike(recipe);
             setRecipe(RecipeManager.getInstance().moveToNextRecipe());
 
         } else if (resView == R.id.refresh_button) {
@@ -77,6 +80,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             setRecipe(RecipeManager.getInstance().getCurrentRecipe());
 
         } else if (resView == R.id.favorite_button) {
+            Recipe recipe = RecipeManager.getInstance().getCurrentRecipe();
+            ProfileManager.getInstance().addFavorite(recipe);
             setRecipe(RecipeManager.getInstance().moveToNextRecipe());
         }
     }

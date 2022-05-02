@@ -44,6 +44,7 @@
     <string name="upload_next_button">Next</string>
     <string name="upload_submit_button">Submit</string>
     <string name="upload_cancel_button">Cancel</string>
+    <string name="upload_add_new_button_access">Add a new item</string>
 
     <string name="start_upload_title">Upload a New Recipe</string>
     <string name="upload_access_string_1">Upload</string>
@@ -54,8 +55,11 @@
     <string name="upload_pg1_recipe_servings">Servings</string>
     <string name="upload_pg1_recipe_servings_hint">4</string>
     <string name="upload_pg2_recipe_ingredients_title">Ingredients</string>
+    <string name="upload_pg2_recipe_ingredients_hint">Mayonnaise</string>
     <string name="upload_pg3_recipe_instructions_title">Instructions</string>
+    <string name="upload_pg3_recipe_instructions_hint">Preheat oven to 350\u00B0F</string>
     <string name="upload_pg4_recipe_notes_title">Any Notes for the Reader?</string>
+    <string name="upload_pg4_recipe_notes_hint">Enjoy with a side of chips</string>
     <string name="upload_pg5_recipe_image_title">Take or upload a photo of your recipe</string>
     <string name="upload_pg6_recipe_submit_title">Everything look good?</string>
     <string name="upload_p6_banner_access">Title banner for submission page</string>

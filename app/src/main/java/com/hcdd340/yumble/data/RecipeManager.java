@@ -362,4 +362,16 @@ public class RecipeManager {
 
         return recipeList.get(index);
     }
+
+    public void addRecipeToSaved(Recipe recipe) {
+        ProfileManager.getInstance().addFavorite(recipe);
+    }
+
+    public void addRecipeToDislike(Recipe recipe) {
+        ProfileManager.getInstance().addDislike(recipe);
+    }
+
+    public void addRecipeToUpload(Recipe recipe) {
+        ProfileManager.getInstance().addUpload(recipe);
+    }
 }

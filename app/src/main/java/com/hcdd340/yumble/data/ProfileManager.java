@@ -19,8 +19,40 @@ public class ProfileManager {
     }
     // End Singleton declaration
 
-    private LinkedList<Recipe> favoritesList = new LinkedList<>();
-    private LinkedList<Recipe> dislikeList = new LinkedList<>();
-    private LinkedList<Recipe> uploadList = new LinkedList<>();
+    private final LinkedList<Recipe> favoritesList = new LinkedList<>();
+    private final LinkedList<Recipe> dislikeList = new LinkedList<>();
+    private final LinkedList<Recipe> uploadList = new LinkedList<>();
+    private final LinkedList<Recipe> favoritesByOtherList = new LinkedList<>();
 
+    public void addFavorite(Recipe recipe) {
+        favoritesList.add(recipe);
+    }
+
+    public int getFavoriteSize() {
+        return favoritesList.size();
+    }
+
+    public void addDislike(Recipe recipe) {
+        dislikeList.add(recipe);
+    }
+
+    public int getDislikeSize() {
+        return dislikeList.size();
+    }
+
+    public void addUpload(Recipe recipe) {
+        uploadList.add(recipe);
+    }
+
+    public int getUploadSize() {
+        return uploadList.size();
+    }
+
+    public void addOthersFavorite(Recipe recipe) {
+        favoritesByOtherList.add(recipe);
+    }
+
+    public int getFavoritesByOtherSize() {
+        return favoritesByOtherList.size();
+    }
 }

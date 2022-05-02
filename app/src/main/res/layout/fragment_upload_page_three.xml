@@ -10,6 +10,22 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/add_instructions_button"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@color/primary_button"
+            android:contentDescription="@string/upload_add_new_button_access"
+            android:elevation="5dp"
+            android:src="@drawable/ic_round_add_36"
+            android:tint="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/guideline26"
+            app:layout_constraintEnd_toStartOf="@+id/guideline28"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="@+id/guideline27"
+            app:layout_constraintTop_toTopOf="@+id/guideline26"
+            app:shapeAppearanceOverlay="@style/circleShape" />
+
         <TextView
             android:id="@+id/upload_p3_title"
             android:layout_width="wrap_content"
@@ -30,7 +46,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/food_red"
             android:text="@string/upload_next_button"
-            android:textSize="24sp"
+            android:textSize="16sp"
             app:layout_constraintBottom_toBottomOf="@+id/upload_cancel_button_p3"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
@@ -41,10 +57,11 @@
             android:id="@+id/upload_cancel_button_p3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
             android:backgroundTint="@color/light_grey_background"
             android:text="@string/upload_cancel_button"
             android:textColor="@color/grey_text"
-            android:textSize="24sp"
+            android:textSize="16sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/upload_next_button_p3"
             app:layout_constraintHorizontal_bias="0.5"
@@ -81,6 +98,7 @@
             app:layout_constraintGuide_begin="100dp" />
 
         <ScrollView
+            android:id="@+id/scrollView3"
             android:layout_width="0dp"
             android:layout_height="0dp"
             app:layout_constraintBottom_toTopOf="@+id/guideline26"
@@ -89,9 +107,24 @@
             app:layout_constraintTop_toTopOf="@+id/guideline29">
 
             <LinearLayout
+                android:id="@+id/upload_instructions_input"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical" />
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/instructions_first_step_placeholder"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="80px"
+                    android:ems="10"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:gravity="start|top"
+                    android:hint="@string/upload_pg3_recipe_instructions_hint"
+                    android:importantForAutofill="no"
+                    android:inputType="textMultiLine"
+                    android:textColorHint="#757575" />
+            </LinearLayout>
         </ScrollView>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
