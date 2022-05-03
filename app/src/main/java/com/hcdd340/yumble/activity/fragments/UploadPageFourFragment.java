@@ -45,6 +45,8 @@ public class UploadPageFourFragment extends Fragment implements View.OnClickList
         int resView = view.getId();
 
         if (resView == R.id.upload_next_button_p4) {
+            UploadManager.getInstance().saveNotes(ll);
+
             UploadPageFiveFragment uploadPageFiveFragment = new UploadPageFiveFragment();
             getActivity().getSupportFragmentManager().beginTransaction()
                     .setCustomAnimations(R.anim.slide_in_right, R.anim.slide_out_left, R.anim.slide_in_left, R.anim.slide_out_right)

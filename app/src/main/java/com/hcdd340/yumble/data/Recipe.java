@@ -1,5 +1,7 @@
 package com.hcdd340.yumble.data;
 
+import android.graphics.Bitmap;
+
 import androidx.annotation.Nullable;
 
 import org.javatuples.Pair;
@@ -15,6 +17,7 @@ public class Recipe {
     private String author;
     private ArrayList<String> tags;
     private Integer image;
+    private Bitmap imageBitmap;
     private String imageDesc;
     private Pair<String, String> statistics;
     private String desc;
@@ -54,6 +57,31 @@ public class Recipe {
         this.title = title;
         this.tags = tags;
         this.image = image;
+        this.imageDesc = imageDesc;
+        this.statistics = statistics;
+        this.desc = desc;
+        this.ingredients = ingredients;
+        this.instructions = instructions;
+        this.notes = notes;
+        this.nutrition = nutrition;
+    }
+
+    public Recipe(
+            @Nullable String author,
+            @Nullable String title,
+            @Nullable ArrayList<String> tags,
+            @Nullable Bitmap image,
+            @Nullable String imageDesc,
+            @Nullable Pair<String, String> statistics,
+            @Nullable String desc,
+            @Nullable LinkedList<String> ingredients,
+            @Nullable LinkedList<String> instructions,
+            @Nullable LinkedList<String> notes,
+            @Nullable LinkedList<Pair<String, String>> nutrition ) {
+        this.author = author;
+        this.title = title;
+        this.tags = tags;
+        this.imageBitmap = image;
         this.imageDesc = imageDesc;
         this.statistics = statistics;
         this.desc = desc;
@@ -133,6 +161,24 @@ public class Recipe {
      */
     public void setImage(Integer image) {
         this.image = image;
+    }
+
+    /**
+     * Get image as Bitmap.
+     *
+     * @return Image as Bitmap.
+     */
+    public Bitmap getImageBitmap() {
+        return imageBitmap;
+    }
+
+    /**
+     * Set new image Bitmap for recipe.
+     *
+     * @param imageBitmap New image Bitmap.
+     */
+    public void setImageBitmap(Bitmap imageBitmap) {
+        this.imageBitmap = imageBitmap;
     }
 
     /**

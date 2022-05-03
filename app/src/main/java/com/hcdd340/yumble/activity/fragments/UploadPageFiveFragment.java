@@ -22,10 +22,12 @@ import android.widget.Button;
 
 import com.google.android.material.imageview.ShapeableImageView;
 import com.hcdd340.yumble.R;
+import com.hcdd340.yumble.actions.UploadManager;
 
 public class UploadPageFiveFragment extends Fragment implements View.OnClickListener {
     private static final String DEBUG_TAG = "UPLOAD_FRAG_5";
     private View view;
+    private Bitmap bitmap;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -54,6 +56,8 @@ public class UploadPageFiveFragment extends Fragment implements View.OnClickList
         int resView = view.getId();
 
         if (resView == R.id.upload_next_button_p5) {
+            UploadManager.getInstance().saveImage(bitmap);
+
             UploadSubmitRecipeFragment uploadSubmitRecipeFragment = new UploadSubmitRecipeFragment();
             getActivity().getSupportFragmentManager().beginTransaction()
                     .setCustomAnimations(R.anim.slide_in_right, R.anim.slide_out_left, R.anim.slide_in_left, R.anim.slide_out_right)
@@ -87,7 +91,7 @@ public class UploadPageFiveFragment extends Fragment implements View.OnClickList
                     int resultCode = result.getResultCode();
                     if (resultCode == RESULT_OK) {
                         assert result.getData() != null;
-                        Bitmap imageBitmap = (Bitmap) result.getData().getExtras().get("data");
+                        bitmap = (Bitmap) result.getData().getExtras().get("data");
                     } else if (resultCode == RESULT_CANCELED) {
                         Log.d(DEBUG_TAG, "Canceled without taking an image");
                     } else {

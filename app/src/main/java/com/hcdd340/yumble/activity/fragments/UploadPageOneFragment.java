@@ -8,8 +8,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
 
 import com.hcdd340.yumble.R;
+import com.hcdd340.yumble.actions.UploadManager;
 
 public class UploadPageOneFragment extends Fragment implements View.OnClickListener {
     private View view;
@@ -33,10 +35,18 @@ public class UploadPageOneFragment extends Fragment implements View.OnClickListe
     }
 
     @Override
-    public void onClick(View view) {
-        int resView = view.getId();
+    public void onClick(View vw) {
+        int resView = vw.getId();
 
         if (resView == R.id.upload_next_button_p1) {
+            EditText title = view.findViewById(R.id.upload_recipe_title_input);
+            EditText cookTime = view.findViewById(R.id.upload_recipe_cook_time_input);
+            EditText servings = view.findViewById(R.id.upload_recipe_servings_input);
+
+            UploadManager.getInstance().saveTitle(title.getText().toString());
+            UploadManager.getInstance().saveCookTime(cookTime.getText().toString());
+            UploadManager.getInstance().saveServings(servings.getText().toString());
+
             UploadPageTwoFragment uploadPageTwoFragment = new UploadPageTwoFragment();
             getActivity().getSupportFragmentManager().beginTransaction()
                     .setCustomAnimations(R.anim.slide_in_right, R.anim.slide_out_left, R.anim.slide_in_left, R.anim.slide_out_right)
